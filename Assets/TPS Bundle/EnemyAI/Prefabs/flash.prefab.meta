@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 56ce24c1ba722234395e08ec787ff14d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Prefabs/flash.prefab
+  uploadId: 635718

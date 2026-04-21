@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 10f2785937e90f84bb96560b7426b333
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Cover+Shoot/Scripts/LevelScripts/Demo Scene/ControlsTutorial.cs
+  uploadId: 635718

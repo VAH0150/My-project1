@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ab4d283b96d4c9442858801b11d33cd0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Prefabs/bulletHole.prefab
+  uploadId: 635718

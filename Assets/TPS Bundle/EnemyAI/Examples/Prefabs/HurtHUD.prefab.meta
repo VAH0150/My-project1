@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 96c82f1df8075f24aa60ec228a6b40dc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Prefabs/HurtHUD.prefab
+  uploadId: 635718

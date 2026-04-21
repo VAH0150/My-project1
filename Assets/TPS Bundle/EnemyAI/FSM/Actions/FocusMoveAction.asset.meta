@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c36cfdd3bf7b03b4782a4fc86e59b431
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/FSM/Actions/FocusMoveAction.asset
+  uploadId: 635718

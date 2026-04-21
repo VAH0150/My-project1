@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3352742c9c4114a49a2dd3cb52edec88
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Materials/weapons_toon.cubemap
+  uploadId: 635718

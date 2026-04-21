@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 42016ff7180d337488c019236ef8d3a8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Prefabs/hitEffect.prefab
+  uploadId: 635718

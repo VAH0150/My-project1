@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a15f6e6b3eab34a49b82b54fc8be2a32
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Scripts/ScriptableObjects/Actions/ExitFocusAction.cs
+  uploadId: 635718

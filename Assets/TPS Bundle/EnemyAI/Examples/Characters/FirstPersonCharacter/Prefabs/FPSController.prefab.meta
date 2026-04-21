@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 5e9e851c0e142814dac026a256ba2ac0
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
+  uploadId: 635718

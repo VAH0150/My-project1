@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 136dd9ded5b59cc4f9ad58d2aa8195ae
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Extras/Models/colliders/railing-collider-side.mesh
+  uploadId: 635718

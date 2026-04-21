@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 585901dad4c09564db67dc1e08787f0e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Extras/Scripts/LevelScripts/SpawnEffect.cs
+  uploadId: 635718

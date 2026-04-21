@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a18ef33646f6a5f499b6293a4fe95988
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Scenes/LightGunShooter/LightingData.asset
+  uploadId: 635718

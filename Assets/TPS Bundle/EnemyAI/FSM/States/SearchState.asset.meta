@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0bfad19c407dd7e4090d253a2490a6ed
+timeCreated: 1551407528
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/FSM/States/SearchState.asset
+  uploadId: 635718

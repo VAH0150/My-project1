@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d31e8311521e6cd4a9e167f1186198fd
+timeCreated: 1498794369
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Cover+Shoot/Scenes/Tutorial.unity
+  uploadId: 635718

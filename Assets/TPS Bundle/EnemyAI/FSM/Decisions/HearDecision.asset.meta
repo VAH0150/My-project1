@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c732e7766ee963d4d8b832e0176ee6c7
+timeCreated: 1551408180
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/FSM/Decisions/HearDecision.asset
+  uploadId: 635718

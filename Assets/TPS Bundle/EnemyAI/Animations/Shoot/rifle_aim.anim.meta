@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 81b2886d881f4a64485cac28a315888b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Animations/Shoot/rifle_aim.anim
+  uploadId: 635718

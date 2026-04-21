@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b2e4beb30ae4f7943a0ce2dca9638e52
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Materials/env_covers.mat
+  uploadId: 635718

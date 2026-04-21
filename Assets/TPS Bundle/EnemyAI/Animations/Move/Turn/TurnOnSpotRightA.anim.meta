@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f9135f953629ab44940e621f998bba0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Animations/Move/Turn/TurnOnSpotRightA.anim
+  uploadId: 635718

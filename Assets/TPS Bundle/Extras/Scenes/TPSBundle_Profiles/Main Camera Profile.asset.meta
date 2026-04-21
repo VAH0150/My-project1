@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 06fa9a4622cf91d43b000de0157c20ba
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Extras/Scenes/TPSBundle_Profiles/Main Camera Profile.asset
+  uploadId: 635718

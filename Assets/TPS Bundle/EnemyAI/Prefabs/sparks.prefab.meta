@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 305202af1e9d5cf4999160be5e328ae8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Prefabs/sparks.prefab
+  uploadId: 635718

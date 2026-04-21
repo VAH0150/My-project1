@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8d9173730906dd84b8e70ee93ce211e6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Prefabs/enemy_ak.prefab
+  uploadId: 635718

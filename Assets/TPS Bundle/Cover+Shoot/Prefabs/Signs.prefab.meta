@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 895d607a9a1fb3541bbffd41fea24dbe
+timeCreated: 1503615070
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Cover+Shoot/Prefabs/Signs.prefab
+  uploadId: 635718

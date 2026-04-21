@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6238070ec5794824982b0ad60edc60eb
+timeCreated: 1498775009
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Cover+Shoot/Scripts/LevelScripts/Demo Scene/TimeTrialManager.cs
+  uploadId: 635718

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a330d5dec03fa24a8800f28a8ee9fc2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Scenes/LightGunShooterSettings.lighting
+  uploadId: 635718

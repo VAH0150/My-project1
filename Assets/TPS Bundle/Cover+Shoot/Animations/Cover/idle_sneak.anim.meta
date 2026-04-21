@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cd91becfb47c88f4eb6f73f950aab2df
+timeCreated: 1503967240
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Cover+Shoot/Animations/Cover/idle_sneak.anim
+  uploadId: 635718

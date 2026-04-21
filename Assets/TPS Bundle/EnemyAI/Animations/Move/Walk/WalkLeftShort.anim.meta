@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 936911dd10679454daf600314f08021e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Animations/Move/Walk/WalkLeftShort.anim
+  uploadId: 635718

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 31bd79cd6464c68458e0fd73a4a767cb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Scripts/ScriptableObjects/Decisions/TargetDeadDecision.cs
+  uploadId: 635718

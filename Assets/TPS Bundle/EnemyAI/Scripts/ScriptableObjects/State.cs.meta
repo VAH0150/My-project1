@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: c234f2caeeb03b64caef39a0b9adae67
+timeCreated: 1551388238
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Scripts/ScriptableObjects/State.cs
+  uploadId: 635718

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 0dc00b108bd9e464a8304e55a200b6cf
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Materials/env_DarkTileF.mat
+  uploadId: 635718

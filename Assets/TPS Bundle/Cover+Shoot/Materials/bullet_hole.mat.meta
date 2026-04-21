@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 07822d37515343940a5dde7b6c86a125
+timeCreated: 1496121409
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Cover+Shoot/Materials/bullet_hole.mat
+  uploadId: 635718

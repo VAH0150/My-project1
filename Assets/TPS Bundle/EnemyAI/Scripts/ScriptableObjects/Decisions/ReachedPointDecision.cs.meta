@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: edba5b9f58d6db54ebfcb9201766f81b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Scripts/ScriptableObjects/Decisions/ReachedPointDecision.cs
+  uploadId: 635718

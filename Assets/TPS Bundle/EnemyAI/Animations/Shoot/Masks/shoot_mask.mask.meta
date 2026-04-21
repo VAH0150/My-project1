@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e45eab74e8109ef4fad81b3e7465e90e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Animations/Shoot/Masks/shoot_mask.mask
+  uploadId: 635718

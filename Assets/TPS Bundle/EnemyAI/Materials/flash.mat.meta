@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eff3d6079e6d93b4393783caa68d857a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Materials/flash.mat
+  uploadId: 635718

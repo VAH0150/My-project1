@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 5a4a9de43c266e34185eb34c3572ce42
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Materials/char_toon.cubemap
+  uploadId: 635718

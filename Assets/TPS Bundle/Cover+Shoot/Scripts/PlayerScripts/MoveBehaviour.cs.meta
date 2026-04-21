@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b04cfe015b44cfc4fb97244a8ce150c0
+timeCreated: 1464039802
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Cover+Shoot/Scripts/PlayerScripts/MoveBehaviour.cs
+  uploadId: 635718

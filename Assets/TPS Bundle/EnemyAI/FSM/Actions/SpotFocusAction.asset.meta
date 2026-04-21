@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b21228a028a936b4b9a66eb94a395ebf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/FSM/Actions/SpotFocusAction.asset
+  uploadId: 635718

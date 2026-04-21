@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2d1c540b60cefc240aaa503217d65b8a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/FSM/States/ReturnToCoverState.asset
+  uploadId: 635718

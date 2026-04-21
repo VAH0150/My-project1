@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2932dce99b5f8c14da171aedb2947c69
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Characters/LightGunCharacter/Scripts/CursorTrack.cs
+  uploadId: 635718

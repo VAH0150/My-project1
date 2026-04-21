@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 6ba59893b8386fb4fbe56ecff064c01d
+NativeFormatImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Materials/char_enemy.mat
+  uploadId: 635718

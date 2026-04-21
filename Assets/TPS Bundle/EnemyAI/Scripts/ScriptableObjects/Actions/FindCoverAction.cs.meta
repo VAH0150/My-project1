@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 2f2677b10bdeed84c9c267f9c46f0eaa
+timeCreated: 1551406671
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Scripts/ScriptableObjects/Actions/FindCoverAction.cs
+  uploadId: 635718

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3dfa3182f182d8a41a1aa7ae52196965
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Animators/EnemyAnimator.controller
+  uploadId: 635718

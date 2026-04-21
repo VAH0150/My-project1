@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3768cb513c1e5724f85236e70fc60df1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Animations/Move/Strafe/strafe_45.anim
+  uploadId: 635718

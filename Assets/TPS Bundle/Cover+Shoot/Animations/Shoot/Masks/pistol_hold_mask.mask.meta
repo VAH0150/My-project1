@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: befc000c13978fc46822ff3c55a58fcf
+timeCreated: 1494912993
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Cover+Shoot/Animations/Shoot/Masks/pistol_hold_mask.mask
+  uploadId: 635718

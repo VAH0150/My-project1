@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: d1b6ed1705d8d044ca79b1c61c7aee45
+timeCreated: 1551416634
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Scripts/ScriptableObjects/Actions/AttackAction.cs
+  uploadId: 635718

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 17a5fd789535dc94b80bf78ffb0ea097
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Prefabs/enemy_pistol.prefab
+  uploadId: 635718

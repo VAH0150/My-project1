@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 90ba2943dad94304f894b38d1ef4a905
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/Examples/Scripts/LevelScripts/LevelTrigger.cs
+  uploadId: 635718

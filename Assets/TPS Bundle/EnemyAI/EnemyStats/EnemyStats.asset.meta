@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2cd596f2665f9114fb86c98955456429
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/EnemyStats/EnemyStats.asset
+  uploadId: 635718

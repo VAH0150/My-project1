@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5f57170ec6dffc7488b0a2159dbccf3d
+timeCreated: 1551390345
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/EnemyAI/FSM/States/PatrolState.asset
+  uploadId: 635718

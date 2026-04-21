@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 93c97da0a9a11174ab89575db81f7917
+timeCreated: 1471532950
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Extras/Materials/Embers.mat
+  uploadId: 635718

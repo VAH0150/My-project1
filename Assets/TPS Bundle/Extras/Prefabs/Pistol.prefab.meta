@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cf4af3afacb28194d80b36b417e78042
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Extras/Prefabs/Pistol.prefab
+  uploadId: 635718

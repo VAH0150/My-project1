@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6b45e827f70bd5b409f038cb084b314c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Extras/Scripts/LevelScripts/SliderHandler.cs
+  uploadId: 635718

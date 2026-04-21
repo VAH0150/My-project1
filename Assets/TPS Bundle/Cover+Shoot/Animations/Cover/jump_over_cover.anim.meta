@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 81c7ca93bc5a9ff49b17a6b859bea06e
+timeCreated: 1467250577
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 163222
+  packageName: Third Person Shooter Bundle
+  packageVersion: 1.0.3
+  assetPath: Assets/TPS Bundle/Cover+Shoot/Animations/Cover/jump_over_cover.anim
+  uploadId: 635718
