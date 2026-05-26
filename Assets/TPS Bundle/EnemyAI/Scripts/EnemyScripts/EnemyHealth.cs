@@ -86,6 +86,7 @@ namespace EnemyAI
 			{
 				// Kill the NPC?
 				if (!dead)
+					AkUnitySoundEngine.PostEvent("play_death", gameObject);
 					Kill();
 
 				// Shooting a dead body? Just apply shot force on the ragdoll part.

@@ -4,7 +4,7 @@ using UnityEngine.AI;
 // CoverBehaviour inherits from GenericBehaviour. This class corresponds to take cover and covering moves behaviour.
 public class CoverBehaviour : GenericBehaviour
 {
-	public string coverButton = "Fire3";             // Default cover button (take/exit/turn/change/jump over).
+	public KeyCode coverButton = KeyCode.C;
 	public float camCornerOffset = 1.0f;             // Default camera shift offset to peek corners.
 	public float orientationSmooth = 0.3f;           // Default smooth factor to re-orientate player when turning corners or rounded covers.
 	public float crouchSmooth = 0.1f;                // Default smooth factor to change from cover standing to crouch.
@@ -109,7 +109,7 @@ public class CoverBehaviour : GenericBehaviour
 			}
 
 			// Handle enter/exit/covering special actions when cover button is pressed.
-			if (Input.GetButtonUp (coverButton))
+			if (Input.GetKeyUp(coverButton))
 			{
 				HandleCoverActions();
 

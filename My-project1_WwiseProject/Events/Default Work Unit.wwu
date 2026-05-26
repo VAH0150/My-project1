@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_pistolShot" ID="{9AC070BE-239A-46D1-805B-DB06EF21073C}">
+					<ChildrenList>
+						<Action Name="" ID="{313257EE-3DEA-4B7B-8BE4-48A7F8DAA455}" ShortID="108897690">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pistol" ID="{7C071829-73AB-45BC-982B-65D5FE36AA08}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_reload" ID="{D4CF80FF-294A-4F4C-8AA9-8173B95D9301}">
+					<ChildrenList>
+						<Action Name="" ID="{685BCC9F-485E-4559-8FD2-9E723956D95B}" ShortID="625286226">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pistol_reload" ID="{1F677247-4423-4403-A209-8F31DEBF31A3}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_walk" ID="{9E29496F-F296-4C19-8AE2-3A0119C0D34F}">
+					<ChildrenList>
+						<Action Name="" ID="{C345A6D8-3C14-413A-BCB3-B28AA8413027}" ShortID="63879725">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="footstep" ID="{5DE0622C-C7D4-42A7-978B-8BB1530EC501}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_walk" ID="{2A1F3E57-F2B2-4670-A0A2-4E9FFF2E334C}">
+					<ChildrenList>
+						<Action Name="" ID="{2A42086E-98D1-40F4-84E9-2B827616B6A0}" ShortID="690330877">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="footstep" ID="{5DE0622C-C7D4-42A7-978B-8BB1530EC501}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_jump" ID="{DB24A91B-DE2D-4F0B-BFBC-A8A1A3415177}">
+					<ChildrenList>
+						<Action Name="" ID="{B4C7858D-029D-4EC9-8CD4-F06D1A5DF24B}" ShortID="18364709">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="jump" ID="{2E13214D-3168-4904-B9DC-95ED5EB6CE37}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_land" ID="{02B3A2B1-3B80-4EBE-A5D5-3395C0F6DD5E}">
+					<ChildrenList>
+						<Action Name="" ID="{A443F2B3-CDA3-4942-975A-6FF8467BF418}" ShortID="565139941">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="breath" ID="{3F3C2908-0DFA-4718-B5F1-E899699D5563}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_ar_shot" ID="{6964A114-82D7-47BB-91A2-D5DB93244CAD}">
+					<ChildrenList>
+						<Action Name="" ID="{1BD5051C-E659-4131-9481-153C8C41F61C}" ShortID="154243962">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ar_shot" ID="{C2CD853F-32E7-4567-A73D-BB1AC43D612C}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_ar_reload" ID="{EB3C0E82-8822-4DF1-A801-60E19B0571BE}">
+					<ChildrenList>
+						<Action Name="" ID="{73EA2799-DE18-43A3-A38A-4F049ECFD901}" ShortID="74695437">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ar_reload" ID="{1329C1EA-D23F-49A1-B248-D06AFBF2738E}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_death" ID="{2BE33709-8516-47D7-A0AC-948E7B13675A}">
+					<ChildrenList>
+						<Action Name="" ID="{28BFB354-7FD5-4D54-A77F-60B893C241EF}" ShortID="196002648">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="death" ID="{421539E1-65CA-4D07-A94E-E7CD1AD5F18E}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_gundrop" ID="{46D637B3-1ACA-43DF-8BA5-344A9BA27BBF}">
+					<ChildrenList>
+						<Action Name="" ID="{5F402059-FD58-4C77-AD61-0FF2B139D8F8}" ShortID="166406522">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gun_ground" ID="{0BA137A6-6A3E-44E3-9B80-13F5FE4DFFC5}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="pl_wlk" ID="{10AAD9BD-30A3-44DC-8405-0429A1C38E07}">
+					<ChildrenList>
+						<Action Name="" ID="{F99540C1-DCBE-4262-84FC-FB1E5D418906}" ShortID="1062205078">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="plstep" ID="{D9BAC9EA-DF34-45FB-ABDD-24DFBCD45B70}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="pl_stp" ID="{D874D831-5125-4BA2-BCD4-0CA6D0E2763F}">
+					<ChildrenList>
+						<Action Name="" ID="{F4EE0083-FFCC-4D89-AF03-9AF31A8856EB}" ShortID="706234284">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="plstep" ID="{D9BAC9EA-DF34-45FB-ABDD-24DFBCD45B70}" WorkUnitID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

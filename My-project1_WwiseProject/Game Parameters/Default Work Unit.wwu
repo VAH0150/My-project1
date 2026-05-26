@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3CDE02CE-22A6-4468-AF41-B3D3ADE37FF8}" SchemaVersion="133">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{3CDE02CE-22A6-4468-AF41-B3D3ADE37FF8}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Footstep_Distance" ID="{84C68D30-EF26-406B-A297-D9D034C5038E}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="50"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

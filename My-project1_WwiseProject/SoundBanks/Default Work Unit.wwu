@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B34E8E8-7714-4ECB-845A-3F15B8347AC7}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{2B34E8E8-7714-4ECB-845A-3F15B8347AC7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main_bank" ID="{B9E11367-35C9-4F6D-8F0B-0865580162FE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_gundrop" ID="{46D637B3-1ACA-43DF-8BA5-344A9BA27BBF}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="pl_wlk" ID="{10AAD9BD-30A3-44DC-8405-0429A1C38E07}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stop_walk" ID="{2A1F3E57-F2B2-4670-A0A2-4E9FFF2E334C}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pistolShot" ID="{9AC070BE-239A-46D1-805B-DB06EF21073C}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_ar_shot" ID="{6964A114-82D7-47BB-91A2-D5DB93244CAD}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_death" ID="{2BE33709-8516-47D7-A0AC-948E7B13675A}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="pl_stp" ID="{D874D831-5125-4BA2-BCD4-0CA6D0E2763F}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_walk" ID="{9E29496F-F296-4C19-8AE2-3A0119C0D34F}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_ar_reload" ID="{EB3C0E82-8822-4DF1-A801-60E19B0571BE}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_land" ID="{02B3A2B1-3B80-4EBE-A5D5-3395C0F6DD5E}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_jump" ID="{DB24A91B-DE2D-4F0B-BFBC-A8A1A3415177}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_reload" ID="{D4CF80FF-294A-4F4C-8AA9-8173B95D9301}" WorkUnitID="{5587622C-73B5-4F9B-BDF0-A126B7F70002}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

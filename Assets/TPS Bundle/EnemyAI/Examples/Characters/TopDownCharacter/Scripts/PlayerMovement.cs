@@ -1,83 +1,113 @@
 ﻿using UnityEngine;
 
-// This class is created for the example scene. There is no support for this script.
+// Player movement using Wwise + AkUnitySoundEngine
+// Rewritten from Unity audio implementation
+
 public class PlayerMovement : MonoBehaviour
 {
-	public float walkSpeed = 5f;        // The speed that the player will move at.
-	public float runSpeed = 7.5f;        // The speed that the player will move at.
+    public float walkSpeed = 5f;
+    public float runSpeed = 7.5f;
 
-	Vector3 movement;                   // The vector to store the direction of the player's movement.
-	Animator anim;                      // Reference to the animator component.
-	Rigidbody playerRigidbody;          // Reference to the player's rigidbody.
-	float camRayLength = 100f;          // The length of the ray from the camera into the scene.
+    Vector3 movement;
+    Animator anim;
+    Rigidbody playerRigidbody;
 
-	private Transform gun, ball;
+    float camRayLength = 100f;
 
-	void Awake()
-	{
-		// Set up references.
-		anim = GetComponent<Animator>();
-		playerRigidbody = GetComponent<Rigidbody>();
-		gun = transform.Find("gun");
-		ball = transform.Find("ball");
-	}
+    private Transform gun, ball;
 
+    // Wwise walking state tracking
+    private bool isWalking = false;
 
-	void FixedUpdate()
-	{
-		// Store the input axes.
-		float h = Input.GetAxisRaw("Horizontal");
-		float v = Input.GetAxisRaw("Vertical");
+    void Awake()
+    {
+        // Set up references.
+        anim = GetComponent<Animator>();
+        playerRigidbody = GetComponent<Rigidbody>();
 
-		// Move the player around the scene.
-		Move(h, v);
+        gun = transform.Find("gun");
+        ball = transform.Find("ball");
+    }
 
-		// Turn the player to face the mouse cursor.
-		Turning();
+    void FixedUpdate()
+    {
+        // Store the input axes.
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
 
-		GetComponent<CapsuleCollider>().enabled = !Input.GetMouseButton(1);
-	}
+        // Move the player around the scene.
+        Move(h, v);
 
-	void Move(float h, float v)
-	{
-		// Set the movement vector based on the axis input.
-		movement.Set(h, 0f, v);
+        // Turn the player to face the mouse cursor.
+        Turning();
 
-		// Normalise the movement vector and make it proportional to the speed per second.
-		movement = movement.normalized * (Input.GetKey(KeyCode.LeftShift)?runSpeed:walkSpeed) * Time.deltaTime;
+        GetComponent<CapsuleCollider>().enabled = !Input.GetMouseButton(1);
+    }
 
-		// Move the player to it's current position plus the movement.
-		playerRigidbody.MovePosition(transform.position + movement);
-	}
+    void Move(float h, float v)
+    {
+        // Set the movement vector based on input.
+        movement.Set(h, 0f, v);
 
-	void Turning()
-	{
-		// Create a ray from the mouse cursor on screen in the direction of the camera.
-		Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+        bool playerMoving = movement.magnitude > 0.1f;
 
-		// Create a RaycastHit variable to store information about what was hit by the ray.
-		RaycastHit hit;
+        // WWISE FOOTSTEP LOGIC
+        if (playerMoving && !isWalking)
+        {
+            AkUnitySoundEngine.PostEvent("Play_walk", gameObject);
+            isWalking = true;
+        }
+        else if (!playerMoving && isWalking)
+        {
+            AkUnitySoundEngine.PostEvent("stop_walk", gameObject);
+            isWalking = false;
+        }
 
-		// Perform the raycast and if it hits something on the floor layer...
-		if (Physics.Raycast(camRay, out hit, camRayLength))
-		{
-			if (Vector3.Distance(hit.point, transform.position) < 2.2f)
-				return;
+        // Normalize movement vector and apply movement speed.
+        movement = movement.normalized *
+                  (Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed) *
+                  Time.deltaTime;
 
-			// Create a vector from the player to the point on the floor the raycast from the mouse hit.
-			Vector3 playerToMouse = hit.point - gun.Find("muzzle").position;
+        // Move the player.
+        playerRigidbody.MovePosition(transform.position + movement);
+    }
 
-			gun.localRotation = Quaternion.LookRotation(playerToMouse);
-			gun.localRotation = Quaternion.Euler(gun.localRotation.eulerAngles.x, 0, 0);
+    void Turning()
+    {
+        // Create a ray from the mouse cursor.
+        Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-			// Ensure the vector is entirely along the floor plane.
-			playerToMouse.y = 0f;
+        RaycastHit hit;
 
-			// Create a quaternion (rotation) based on looking down the vector from the player to the mouse.
-			Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
+        // Perform raycast.
+        if (Physics.Raycast(camRay, out hit, camRayLength))
+        {
+            if (Vector3.Distance(hit.point, transform.position) < 2.2f)
+                return;
 
-			// Set the player's rotation to this new rotation.
-			playerRigidbody.MoveRotation(newRotation);
-		}
-	}
+            // Create direction vector.
+            Vector3 playerToMouse = hit.point - gun.Find("muzzle").position;
+
+            gun.localRotation = Quaternion.LookRotation(playerToMouse);
+            gun.localRotation = Quaternion.Euler(
+                gun.localRotation.eulerAngles.x,
+                0,
+                0
+            );
+
+            // Keep movement on floor plane.
+            playerToMouse.y = 0f;
+
+            // Rotate player.
+            Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
+
+            playerRigidbody.MoveRotation(newRotation);
+        }
+    }
+
+    private void OnDisable()
+    {
+        // Safety stop for Wwise event cleanup
+        AkUnitySoundEngine.PostEvent("stop_walk", gameObject);
+    }
 }

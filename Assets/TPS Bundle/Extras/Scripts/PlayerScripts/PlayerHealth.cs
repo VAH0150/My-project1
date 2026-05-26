@@ -92,7 +92,7 @@ public class PlayerHealth : HealthManager
 			behaviour.enabled = false;
 		}
 		this.GetComponentInChildren<SpawnEffect>().enabled = true;
-		AudioSource.PlayClipAtPoint(deathClip, transform.position, 5);
+		AkUnitySoundEngine.PostEvent("play_death", gameObject);
 	}
 
 }

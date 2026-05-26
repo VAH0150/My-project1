@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{969EDF56-7D02-49F9-974D-86AFA5A9A302}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ar_reload" ID="{1329C1EA-D23F-49A1-B248-D06AFBF2738E}" ShortID="757836109">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ar_reload" ID="{F120F077-219E-4986-AE22-98525847BB0F}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.52448"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.84101"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>ar_reload.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1003139952"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ar_reload" ID="{F120F077-219E-4986-AE22-98525847BB0F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ar_shot" ID="{C2CD853F-32E7-4567-A73D-BB1AC43D612C}" ShortID="416413694">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ar_shot" ID="{7B918673-0B05-4DD5-98E6-6558D34585E6}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="5.04077"/>
+								<Property Name="TrimEnd" Type="Real64" Value="6.16748"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>ar_shot.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="556383997"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ar_shot" ID="{7B918673-0B05-4DD5-98E6-6558D34585E6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="breath" ID="{3F3C2908-0DFA-4718-B5F1-E899699D5563}" ShortID="729296566">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="breath" ID="{D193F3AC-943B-4593-96EC-16279904000F}">
+							<Language>SFX</Language>
+							<AudioFile>breath.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="547168141"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="breath" ID="{D193F3AC-943B-4593-96EC-16279904000F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="death" ID="{421539E1-65CA-4D07-A94E-E7CD1AD5F18E}" ShortID="75314362">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="death" ID="{C4D106CB-698A-4549-BA71-89473614E121}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.53112"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.5285"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.23756"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>death.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="841765319"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="death" ID="{C4D106CB-698A-4549-BA71-89473614E121}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="jump" ID="{2E13214D-3168-4904-B9DC-95ED5EB6CE37}" ShortID="765187015">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="jump" ID="{FD153E61-E68A-4202-9B21-FE6415FBDE7E}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.09071"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.49872"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.26988"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.7686"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>jump.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="775019680"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="jump" ID="{FD153E61-E68A-4202-9B21-FE6415FBDE7E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="pistol" ID="{7C071829-73AB-45BC-982B-65D5FE36AA08}" ShortID="368198082">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="pistol" ID="{0AA9AB60-5B03-49C2-A80B-5C0B88092F1C}">
+							<Language>SFX</Language>
+							<AudioFile>pistol.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="815197804"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="pistol" ID="{0AA9AB60-5B03-49C2-A80B-5C0B88092F1C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="pistol_reload" ID="{1F677247-4423-4403-A209-8F31DEBF31A3}" ShortID="1057511893">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="pistol_reload" ID="{E3A41227-F7D8-4C26-A8D7-974379056E7E}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="1.39687"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.39687"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>pistol_reload.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="927327729"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="pistol_reload" ID="{E3A41227-F7D8-4C26-A8D7-974379056E7E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="gun_ground" ID="{0BA137A6-6A3E-44E3-9B80-13F5FE4DFFC5}" ShortID="376151469">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="gun_ground" ID="{B4B9CCCC-1A49-47D7-847D-A1CFC6E5920D}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.07725"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.43389"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>gun_ground.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="622314201"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="gun_ground" ID="{B4B9CCCC-1A49-47D7-847D-A1CFC6E5920D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="footstep" ID="{5DE0622C-C7D4-42A7-978B-8BB1530EC501}" ShortID="791870745">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="step1" ID="{33F805BC-E0C6-417D-AF7F-7CCF683FF8E3}" ShortID="765563577">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps" ID="{8BD7B7DD-EB66-4F04-9DE6-699C2EBE8852}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.05156"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.16074"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>footsteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="825011753"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps" ID="{8BD7B7DD-EB66-4F04-9DE6-699C2EBE8852}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="step2" ID="{5DBFBC1F-CB51-49B6-9A03-9669F414A356}" ShortID="63108155">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps" ID="{1BE26E5C-3250-4D32-A997-112D078D1C4F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.45949"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.5635"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>footsteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="691439516"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps" ID="{1BE26E5C-3250-4D32-A997-112D078D1C4F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="step3" ID="{5C7691C0-75C3-4A4F-9DD0-185CACF0307D}" ShortID="1031398414">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps" ID="{7C005A05-9F48-4D91-9422-12DB3838066B}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.85204"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.9604"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>footsteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="178858260"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps" ID="{7C005A05-9F48-4D91-9422-12DB3838066B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="step4" ID="{698C2D8B-58D2-4A07-A251-E198AFA4D90A}" ShortID="999757686">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps" ID="{4E74BC29-74A9-4F6D-9C96-9939F898E46E}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.26001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.3633"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>footsteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="50320916"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps" ID="{4E74BC29-74A9-4F6D-9C96-9939F898E46E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="step5" ID="{CB9ADF93-2908-405D-8F0A-97AB0F02CD53}" ShortID="1014419646">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps" ID="{A05FE46E-E524-47BC-8197-18044D8B2612}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.66797"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.76601"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>footsteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="114187122"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps" ID="{A05FE46E-E524-47BC-8197-18044D8B2612}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="step6" ID="{7C25D33A-0872-46DF-A03E-7FFA97AB4DCB}" ShortID="616207756">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps" ID="{B8793824-15BB-47EF-A59A-F7CBAD6DC3B9}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.06045"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.19977"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>footsteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="477540907"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps" ID="{B8793824-15BB-47EF-A59A-F7CBAD6DC3B9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="step7" ID="{2A6035EA-26CC-4B4F-B5A0-D306D73A4C58}" ShortID="944061797">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps" ID="{7EEE914D-8CA9-4692-B35A-1CA8956CD019}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.46828"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.57673"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>footsteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="261395540"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps" ID="{7EEE914D-8CA9-4692-B35A-1CA8956CD019}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="step8" ID="{F39838E9-B7A8-4AD7-8117-66A1819873CE}" ShortID="185237729">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps" ID="{10BB56D3-F9F9-4E9E-B07A-1F3D44164A08}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.86579"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.96924"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>footsteps.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="250778481"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps" ID="{10BB56D3-F9F9-4E9E-B07A-1F3D44164A08}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{38015AAA-B75B-43A5-9C97-CDEA00EADAB3}" ShortID="1004617661">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="Footstep_Distance" ID="{84C68D30-EF26-406B-A297-D9D034C5038E}" WorkUnitID="{3CDE02CE-22A6-4468-AF41-B3D3ADE37FF8}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{63A15C68-6C2A-4C38-B8F2-A25B5C2B0C7C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>50</XPos>
+														<YPos>-3</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="plstep" ID="{D9BAC9EA-DF34-45FB-ABDD-24DFBCD45B70}" ShortID="293936233">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="gravel_step" ID="{A0F1EB75-5C2A-48EC-A15F-A48986CF5C26}" ShortID="881320119">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gravel_step" ID="{C449239C-3FB4-4603-97CA-FA92498BD191}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.07165"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.53281"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.90701"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>gravel_step.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="432020493"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gravel_step" ID="{C449239C-3FB4-4603-97CA-FA92498BD191}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gravel_step_01" ID="{067C2FFF-32DE-4377-86D0-317F72DF34DA}" ShortID="77235681">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gravel_step" ID="{6B155733-E11F-4329-92C2-371D341AE12C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00405"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.94224"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.09205"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>gravel_step.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1033470774"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gravel_step" ID="{6B155733-E11F-4329-92C2-371D341AE12C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gravel_step_02" ID="{DC2DE4B9-BD8A-4DD1-9974-E583C71128A3}" ShortID="435823788">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gravel_step" ID="{FB26D9F4-8318-44C0-9BDD-C2C420DD0CE3}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00405"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.33766"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.51213"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>gravel_step.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="646158036"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gravel_step" ID="{FB26D9F4-8318-44C0-9BDD-C2C420DD0CE3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gravel_step_03" ID="{E8E8366E-E527-4096-842C-A992C4701B59}" ShortID="997102035">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gravel_step" ID="{D440236A-66FE-4DF4-82B6-688403348881}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00405"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.64685"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.92795"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>gravel_step.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="786646705"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gravel_step" ID="{D440236A-66FE-4DF4-82B6-688403348881}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gravel_step_04" ID="{448C2173-8AE0-4B68-B0D5-2C132DAD29D3}" ShortID="88299698">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gravel_step" ID="{41755DBB-64FE-480E-90E1-50BCDA0260E6}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00405"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.05429"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.27156"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>gravel_step.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="343211067"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gravel_step" ID="{41755DBB-64FE-480E-90E1-50BCDA0260E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gravel_step_05" ID="{80761A8E-1A7B-400A-B4FB-8D9756E9C372}" ShortID="876971237">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gravel_step" ID="{471904F7-231E-414C-B3D1-2A6E1248FB19}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00405"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.43411"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.6263"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>gravel_step.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="148518143"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gravel_step" ID="{471904F7-231E-414C-B3D1-2A6E1248FB19}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gravel_step_06" ID="{F02317B7-A77B-4F9F-A771-EEBA952B9013}" ShortID="882639193">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gravel_step" ID="{B88F60F1-1E39-4338-809D-F7B2DD72D989}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00405"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.75596"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.04204"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>gravel_step.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="771032372"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gravel_step" ID="{B88F60F1-1E39-4338-809D-F7B2DD72D989}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gravel_step_07" ID="{96001A25-F5A9-4A3B-B5F7-81F2B93D71B9}" ShortID="98683729">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BA91725B-6E7D-49CE-8FA0-6439BC6AC8BB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CDFABAD5-68FF-46D0-B032-B54819CC88BE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gravel_step" ID="{7F68DF77-B243-4530-B012-163F4373D2ED}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00405"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.15364"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.31123"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>gravel_step.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="28843862"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gravel_step" ID="{7F68DF77-B243-4530-B012-163F4373D2ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

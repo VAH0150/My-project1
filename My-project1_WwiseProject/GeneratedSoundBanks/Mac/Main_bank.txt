@@ -1,0 +1,43 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1137209483	Play_gundrop			\Default Work Unit\Play_gundrop	
+	1172822028	play_death			\Default Work Unit\play_death	
+	1524159255	Play_pistolShot			\Default Work Unit\Play_pistolShot	
+	1589278981	Play_walk			\Default Work Unit\Play_walk	
+	1910506537	Play_reload			\Default Work Unit\Play_reload	
+	2253155138	play_ar_shot			\Default Work Unit\play_ar_shot	
+	3002543667	pl_stp			\Default Work Unit\pl_stp	
+	3140964691	stop_walk			\Default Work Unit\stop_walk	
+	3404618180	pl_wlk			\Default Work Unit\pl_wlk	
+	3661419601	play_ar_reload			\Default Work Unit\play_ar_reload	
+	3689126666	play_jump			\Default Work Unit\play_jump	
+	4285282925	play_land			\Default Work Unit\play_land	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2262880615	Footstep_Distance			\Default Work Unit\Footstep_Distance	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	28843862	gravel_step_07	.cache\AD\{AD63048F-84C8-F61B-23AF-AA79F0AB7052}.wem		\Containers\Default Work Unit\plstep\gravel_step_07		30352
+	50320916	step4	.cache\F6\{F665A0D2-27FB-B086-9448-ABE478933510}.wem		\Containers\Default Work Unit\footstep\step4		9208
+	114187122	step5	.cache\F5\{F5EC6634-68D7-46B0-6DBB-32937BB29990}.wem		\Containers\Default Work Unit\footstep\step5		8744
+	148518143	gravel_step_05	.cache\20\{20714D65-BCBD-1267-CDB6-515DA1B7A247}.wem		\Containers\Default Work Unit\plstep\gravel_step_05		36996
+	178858260	step3	.cache\69\{696BFB97-D4EA-A8C5-5F55-9AFC81C5C101}.wem		\Containers\Default Work Unit\footstep\step3		9654
+	250778481	step8	.cache\15\{15B6AC68-EB6B-4020-D02B-E182A98E9C06}.wem		\Containers\Default Work Unit\footstep\step8		9220
+	261395540	step7	.cache\DA\{DA8948AE-48AE-281C-D939-9B749D977FC0}.wem		\Containers\Default Work Unit\footstep\step7		9662
+	343211067	gravel_step_04	.cache\74\{74012D55-86B4-1FE0-BD03-36721830ECF8}.wem		\Containers\Default Work Unit\plstep\gravel_step_04		41812
+	432020493	gravel_step	.cache\13\{13CD6DEC-38F6-0F72-3805-348EB0EAC170}.wem		\Containers\Default Work Unit\plstep\gravel_step		71940
+	477540907	step6	.cache\A5\{A539C542-4E40-C71F-8AF6-C977B7451867}.wem		\Containers\Default Work Unit\footstep\step6		12384
+	547168141	breath	.cache\67\{67B1E106-FBA9-6B0D-C89C-4E4EB397DB79}.wem		\Containers\Default Work Unit\breath		96096
+	556383997	ar_shot	.cache\15\{151A164F-3BB0-23BA-875A-05B221A9937D}.wem		\Containers\Default Work Unit\ar_shot		198848
+	622314201	gun_ground	.cache\50\{506AE62C-EC57-C666-A81E-5D9540026526}.wem		\Containers\Default Work Unit\gun_ground		63008
+	646158036	gravel_step_02	.cache\70\{703CF82E-B1B6-6D74-CF45-8323506F7251}.wem		\Containers\Default Work Unit\plstep\gravel_step_02		33592
+	691439516	step2	.cache\CA\{CAB52550-134D-00A1-8935-34E2DC055ECD}.wem		\Containers\Default Work Unit\footstep\step2		9268
+	771032372	gravel_step_06	.cache\E4\{E4403A46-82C1-0199-138B-AAD14156BB4F}.wem		\Containers\Default Work Unit\plstep\gravel_step_06		55024
+	775019680	jump	.cache\19\{19E97165-0D5F-E943-9F0A-830C0E6CFB51}.wem		\Containers\Default Work Unit\jump		88068
+	786646705	gravel_step_03	.cache\9B\{9B86ACDA-0D13-89F9-3AB5-10BB9CA3F47D}.wem		\Containers\Default Work Unit\plstep\gravel_step_03		54064
+	815197804	pistol	.cache\2A\{2A904BB9-EE9D-1AF9-67E2-26EF52C56500}.wem		\Containers\Default Work Unit\pistol		368316
+	825011753	step1	.cache\D2\{D2270173-BB6A-F1FB-4F14-01772CB7C8FC}.wem		\Containers\Default Work Unit\footstep\step1		9726
+	841765319	death	.cache\61\{61980EAC-3E66-CE5B-92AA-CBDD9C146B25}.wem		\Containers\Default Work Unit\death		125220
+	927327729	pistol_reload	.cache\64\{646E4BCC-3471-DC6D-2EF6-CB92340B79EE}.wem		\Containers\Default Work Unit\pistol_reload		247256
+	1003139952	ar_reload	.cache\61\{6179F628-0308-4E6E-27DC-484910D26C54}.wem		\Containers\Default Work Unit\ar_reload		408732
+	1033470774	gravel_step_01	.cache\BF\{BF30711D-6685-B910-F80C-DD7E289CFA9B}.wem		\Containers\Default Work Unit\plstep\gravel_step_01		28856
+

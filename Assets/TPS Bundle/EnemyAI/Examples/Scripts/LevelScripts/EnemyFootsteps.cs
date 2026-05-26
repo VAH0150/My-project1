@@ -1,62 +1,84 @@
 ﻿using UnityEngine;
 
-// This class is created for the example scene. There is no support for this script.
+// Enemy footsteps using Wwise + distance-based attenuation RTPC
 public class EnemyFootsteps : MonoBehaviour
 {
-	public AudioClip[] stepClips;
+    private Animator anim;
+    private Transform listener; // usually player/camera
 
-	private int index;
-	private Animator anim;
-	private bool isLeftFootAhead;
-	private bool playedLeftFoot;
-	private bool playedRightFoot;
-	private Vector3 leftFootIKPos;
-	private Vector3 rightFootIKPos;
+    private bool playedLeftFoot;
+    private bool playedRightFoot;
 
-	void Awake()
-	{
+    private Vector3 leftFootIKPos;
+    private Vector3 rightFootIKPos;
 
-		anim = this.GetComponent<Animator>();
+    [Header("Wwise RTPC")]
+    public string distanceRtpc = "Footstep_Distance";
 
-	}
+    [Header("Movement threshold")]
+    public float moveThreshold = 1.4f;
 
-	void Update()
-	{
-		float factor = 0.15f;
+    void Awake()
+    {
+        anim = GetComponent<Animator>();
 
-		if (anim.velocity.magnitude > 1.4f)
-		{
-			// Distance between the pivot position and the left foot
-			if (Vector3.Distance(leftFootIKPos, anim.pivotPosition) <= factor && playedLeftFoot == false)
-			{
-				PlayFootStep();
-				playedLeftFoot = true;
-				playedRightFoot = false;
-			}
+        // Find player automatically (tag-based)
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+            listener = player.transform;
+    }
 
-			// Distance between the pivot position and the right foot
-			if (Vector3.Distance(rightFootIKPos, anim.pivotPosition) <= factor && playedRightFoot == false)
-			{
-				PlayFootStep();
-				playedRightFoot = true;
-				playedLeftFoot = false;
-			}
-		}
-	}
+    void Update()
+    {
+        if (listener == null)
+            return;
 
-	void PlayFootStep()
-	{
-		int oldIndex = index;
-		while (oldIndex == index)
-		{
-			index = Random.Range(0, stepClips.Length);
-		}
-		AudioSource.PlayClipAtPoint(stepClips[index], transform.position, 0.1f);
-	}
+        float factor = 0.15f;
 
-	void OnAnimatorIK()
-	{
-		leftFootIKPos = anim.GetIKPosition(AvatarIKGoal.LeftFoot);
-		rightFootIKPos = anim.GetIKPosition(AvatarIKGoal.RightFoot);
-	}
+        float speed = anim.velocity.magnitude;
+
+        // Send distance-based RTPC continuously
+        float distance = Vector3.Distance(transform.position, listener.position);
+
+        // Normalize (adjust range as needed)
+        float rtpcValue = Mathf.Clamp(distance, 0f, 50f);
+
+        AkUnitySoundEngine.SetRTPCValue(distanceRtpc, rtpcValue, gameObject);
+
+        // Movement check
+        if (speed > moveThreshold)
+        {
+            if (Vector3.Distance(leftFootIKPos, anim.pivotPosition) <= factor && !playedLeftFoot)
+            {
+                PlayFootStep();
+                playedLeftFoot = true;
+                playedRightFoot = false;
+            }
+
+            if (Vector3.Distance(rightFootIKPos, anim.pivotPosition) <= factor && !playedRightFoot)
+            {
+                PlayFootStep();
+                playedRightFoot = true;
+                playedLeftFoot = false;
+            }
+        }
+        else
+        {
+            AkUnitySoundEngine.PostEvent("stop_walk", gameObject);
+
+            playedLeftFoot = false;
+            playedRightFoot = false;
+        }
+    }
+
+    void PlayFootStep()
+    {
+        AkUnitySoundEngine.PostEvent("Play_walk", gameObject);
+    }
+
+    void OnAnimatorIK()
+    {
+        leftFootIKPos = anim.GetIKPosition(AvatarIKGoal.LeftFoot);
+        rightFootIKPos = anim.GetIKPosition(AvatarIKGoal.RightFoot);
+    }
 }
